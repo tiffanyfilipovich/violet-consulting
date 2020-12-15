@@ -1,0 +1,266 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: rgba(0, 0, 128, 0.3);
+  width: 100%;
+  height: 10vh;
+  display: flex;
+}
+
+.nav-bar {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  flex: 1;
+  text-align: center;
+}
+
+nav {
+  flex: 2;
+  text-align: center;
+}
+
+h2 {
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 35px;
+  font-size: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+}
+
+/* IMG */
+/* .banner-image {
+  width: 100%;
+  height: 680px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-image: url(/pexels-mountain.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 680px;
+}
+
+.banner-text {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  /* height: auto;
+  position: absolute;
+  bottom: -50px; */
+}
+
+.banner-text p {
+  text-transform: uppercase;
+  text-align: center;
+  color: rgba(0, 0, 128, 0.3);
+}
+
+.little-text {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.big-text {
+  font-size: 60px;
+  margin-top: 10px;
+}
+/* SECTION-BOXES*/
+section {
+  width: 100%;
+  height: 500px;
+  margin: 0;
+}
+
+.boxes {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: rgba(0, 0, 128, 0.3);
+  height: 347px;
+  width: 300px;
+  margin: 0 20px;
+}
+
+.box-title {
+  font-size: 24px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10%;
+  text-transform: uppercase;
+}
+
+.box-text {
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  height: 60%;
+  width: 80%;
+  margin: 3% auto;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -15px auto;
+}
+.button {
+  text-transform: capitalize;
+  vertical-align: middle;
+  text-decoration: none;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  background-color: darkslateblue;
+  color: white;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: indigo;
+}
+
+/* SECTION ABOUT US */
+.about {
+  background-color: darkslateblue;
+}
+
+.about-container {
+  width: 50%;
+  margin: auto auto;
+  height: 500px;
+}
+
+h3 {
+  font-size: 60px;
+  line-height: 1.5;
+  letter-spacing: 0.5;
+  text-align: center;
+  padding: 30px 0px;
+  text-transform: uppercase;
+}
+
+.about-title {
+  color: white;
+}
+
+.about-text {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.about-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-button {
+  text-transform: capitalize;
+  text-decoration: none;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  margin: 35px auto;
+  background-color: violet;
+  color: white;
+  text-align: center;
+}
+
+/* SECTION CONTACT US */
+.contact {
+  background-color: rgba(0, 0, 128, 0.3);
+  height: 95vh;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.map-container {
+  grid-column: 3;
+}
+
+.contact-info {
+  grid-column: 5;
+  grid-row: 1;
+  text-align: center;
+  font-size: 16px;
+}
+
+form {
+  margin-top: 30px;
+}
+
+input {
+  margin-top: 5px;
+  height: 31px;
+  width: 337px;
+}
+
+textarea {
+  margin-top: 8px;
+  height: 130px;
+  width: 337px;
+}
+
+.send-button {
+  width: 47px;
+  height: 32px;
+  float: right;
+  font-size: 16px;
+}
+
+.footer-text {
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 128, 0.3);
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    width: 100%;
+  }
+}
